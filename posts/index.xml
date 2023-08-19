@@ -6,8 +6,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-        <lastBuildDate>Sat, 19 Aug 2023 16:10:48 +0530</lastBuildDate>
+        <lastBuildDate>Sat, 19 Aug 2023 16:23:46 +0530</lastBuildDate>
         <atom:link href="https://harshkishorani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Second</title>
+            <link>https://harshkishorani.github.io/posts/2023/08/second/</link>
+            <pubDate>Sat, 19 Aug 2023 16:23:46 +0530</pubDate>
+            
+            <guid>https://harshkishorani.github.io/posts/2023/08/second/</guid>
+            <description>THis is second post </description>
+            <content type="html"><![CDATA[<h1 id="this-is-second-post">THis is second post</h1>
+]]></content>
+        </item>
         
         <item>
             <title>First</title>
