@@ -1,5 +1,5 @@
 baseURL = "https://harshkishorani.github.io/"
-title   = "Hello Friend"
+title   = "Harsh Kishorani"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -55,13 +55,12 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Hello Friend! I write what I learn"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -72,7 +71,7 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable theme toggle
   # 
@@ -80,7 +79,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating systeme. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -162,23 +161,19 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/HarshKishorani/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:hkishorani7@gmail.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/HarshKishorani/"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    url  = "https://www.linkedin.com/in/harsh-kishorani/"
 
 [menu]
   [[menu.main]]
