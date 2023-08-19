@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>untagged on Hello Friend</title>
-    <link>https://example.com/tags/untagged/</link>
+    <link>https://harshkishorani.github.io/tags/untagged/</link>
     <description>Recent content in untagged on Hello Friend</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 16:10:48 +0530</lastBuildDate><atom:link href="https://example.com/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 16:10:48 +0530</lastBuildDate><atom:link href="https://harshkishorani.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>https://example.com/posts/2023/08/first/</link>
+      <link>https://harshkishorani.github.io/posts/2023/08/first/</link>
       <pubDate>Sat, 19 Aug 2023 16:10:48 +0530</pubDate>
       
-      <guid>https://example.com/posts/2023/08/first/</guid>
+      <guid>https://harshkishorani.github.io/posts/2023/08/first/</guid>
       <description>Hello, I am Harsh Kishorani This is my first post</description>
     </item>
     
