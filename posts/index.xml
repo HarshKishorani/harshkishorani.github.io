@@ -15,9 +15,12 @@
             <pubDate>Sat, 19 Aug 2023 16:10:48 +0530</pubDate>
             
             <guid>https://harshkishorani.github.io/posts/2023/08/first/</guid>
-            <description>Hello, I am Harsh Kishorani This is my first post</description>
+            <description>Hello, I am Harsh Kishorani This is my first post
+Post edit This is a post edit</description>
             <content type="html"><![CDATA[<h1 id="hello-i-am-harsh-kishorani">Hello, I am Harsh Kishorani</h1>
 <p>This is my first post</p>
+<h2 id="post-edit">Post edit</h2>
+<p>This is a post edit</p>
 ]]></content>
         </item>
         
