@@ -7,25 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 16:10:48 +0530</lastBuildDate><atom:link href="https://harshkishorani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Apr 2024 20:30:35 +0530</lastBuildDate>
+    <atom:link href="https://harshkishorani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Ir</title>
+      <link>https://harshkishorani.github.io/posts/2024/04/universal-ir/</link>
+      <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
+      <guid>https://harshkishorani.github.io/posts/2024/04/universal-ir/</guid>
+      <description>I will make this post soon.</description>
+    </item>
     <item>
       <title>First</title>
       <link>https://harshkishorani.github.io/posts/2023/08/first/</link>
       <pubDate>Sat, 19 Aug 2023 16:10:48 +0530</pubDate>
-      
       <guid>https://harshkishorani.github.io/posts/2023/08/first/</guid>
-      <description>Hello, I am Harsh Kishorani This is my first post
-Post edit This is a post edit</description>
+      <description>Hello, I am Harsh Kishorani This is my first post&#xA;Post edit This is a post edit</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://harshkishorani.github.io/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://harshkishorani.github.io/about/</guid>
       <description>My name is Harsh Kishorani</description>
     </item>
-    
   </channel>
 </rss>
