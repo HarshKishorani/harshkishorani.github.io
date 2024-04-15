@@ -10,10 +10,17 @@
     <lastBuildDate>Sun, 14 Apr 2024 20:30:35 +0530</lastBuildDate>
     <atom:link href="https://harshkishorani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Untagged</title>
-      <link>https://harshkishorani.github.io/tags/untagged/</link>
+      <title>Esp32</title>
+      <link>https://harshkishorani.github.io/tags/esp32/</link>
       <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
-      <guid>https://harshkishorani.github.io/tags/untagged/</guid>
+      <guid>https://harshkishorani.github.io/tags/esp32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iot</title>
+      <link>https://harshkishorani.github.io/tags/iot/</link>
+      <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
+      <guid>https://harshkishorani.github.io/tags/iot/</guid>
       <description></description>
     </item>
   </channel>
