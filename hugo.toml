@@ -1,115 +1,38 @@
-baseURL = "/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-title = "Anubis2 Demo Site"
-theme = "anubis2"
-disqusShortname = ""
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = "John Doe's website"
+copyright = 'John Doe' # Used in the footer copyright mention.
+enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
 
-[pagination]
-pagerSize = 5
+[module]
+  [[module.imports]]
+    path = "github.com/michenriksen/hugo-theme-til"
 
-[params.author]
-name = "Junyi"
-email  = "me@junyi.dev"
-location = "Singapore"
+[outputs]
+  home = ['html']
+  section = ['html', 'rss', 'json']
+  page = ['html']
 
-[params]
-description = "Anubis2 is another simple minimalist theme for Hugo blog engine."
-dateFormat = "2006-01-02"
-paginationSinglePost = true
-
-
-colorTheme = "auto"
-colorThemeSwitcher = true
-
-readMore = false
-readNextPosts = 2
-copyCodeButton = true
-rssAsSocialIcon = true
-locale = "en-us"
-math = false # true: enable mathjax globally (default is false)
-toc = true
-
-# Graphcomment support
-graphcommentId = ""
-
-GiscusRepo = "Junyi-99/hugo-theme-anubis2"
-GiscusRepoId = "R_kgDOLEp76Q"
-GiscusCategory = "General"
-GiscusCategoryId = "DIC_kwDOLEp76c4CcbPS"
-GiscusLazyLoad = false
-GiscusDataMapping = "pathname"
-
-customCSS = ["custom-css/custom1.scss", "custom-css/custom2.css"]
-
-social = [
-    { id = "docs", url = "https://gohugo.io/documentation/" },
-    { id = "github", url = "https://github.com/Junyi-99/hugo-theme-anubis2" },
-    { id = "linkedin", url = "https://www.linkedin.com/" },
-    { id = "email", url = "example@example.com" },
-    # { id = "facebook", url = "#" },
-    { id = "instagram", url = "#" },
-    { id = "netease-music", url = "#" },
-    { id = "telegram", url = "#" },
-    { id = "x", url = "#" }
-    # { id = "youtube", url = "#" },
-    # { id = "bluesky", url = "#" }
-]
-
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 2
-
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 3
-
-[[menu.main]]
-name = "Archive"
-identifier = "archive"
-url = "/posts/"
-weight = 4
-
-[languages]
-[languages.en]
-languageName = "English"
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-author = "authors"
+[menus]
+  [[menus.main]]
+    name = 'Notes'
+    pageRef = '/notes'
+    weight = 20
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 30
+  [[menus.main]]
+    name = 'Graph'
+    pageRef = '/graph'
+    weight = 40
 
 [markup]
-defaultMarkdownHandler = 'goldmark'
+  [markup.highlight]
+    noClasses = false
+    style = 'tokyonight-night'
 
-[markup.goldmark.renderer]
-unsafe = true # Enable unsafe mode to have a better experience
-
-[markup.highlight]
-anchorLineNos      = false
-codeFences         = true # tested with true and false. Both work.
-noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
-style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
-tabWidth           = 4
-
-[params.UmamiAnalytics]
-# enabled = true
-# dnt = false
-# id = "d01ce82c-c8f4-4714-ba37-ba4899f2a885"                                            # Website ID
-# datacache = false
-# url = "https://umami.xtra.science/script.js"
-# shareUrl = "https://umami.xtra.science/share/Fy0goUn0b9rrxxGe/hugo-theme-anubis2.netlify.app"
-
-[params.GoogleAnalytics]
-# enabled = true
-# gtag = "G-32F16X8HLF"
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true

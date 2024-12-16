@@ -1,0 +1,15 @@
+{
+  "graph": {
+    "/universal-ir/": {
+      "in": [],
+      "out": []
+    }
+  },
+  "pages": {
+    "/universal-ir/": {
+      "permalink": "/universal-ir/",
+      "section": "posts",
+      "title": "Making an Universal IR Remote Using ESP32 (Part-1)."
+    }
+  }
+}
