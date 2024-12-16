@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = "https://harshkishorani.github.io/"
 languageCode = 'en-us'
 title = "John Doe's website"
 copyright = 'John Doe' # Used in the footer copyright mention.
