@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on John Doe&#39;s website</title>
-    <link>https://example.com/posts/</link>
+    <link>https://harshkishorani.github.io/posts/</link>
     <description>Recent content in Posts on John Doe&#39;s website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>John Doe</copyright>
     <lastBuildDate>Sun, 14 Apr 2024 20:30:35 +0530</lastBuildDate>
-    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://harshkishorani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making an Universal IR remote using ESP32 (Part-1).</title>
-      <link>https://example.com/universal-ir/</link>
+      <link>https://harshkishorani.github.io/universal-ir/</link>
       <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
-      <guid>https://example.com/universal-ir/</guid>
+      <guid>https://harshkishorani.github.io/universal-ir/</guid>
       <description>&lt;h4 id=&#34;we-will-be-using-esp-idf-to-implement-irremoteesp8266-arduino-library-in-esp-idf-to-build-an-ir-remote-repeater&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  We will be using esp idf to implement IRremoteesp8266 Arduino Library in esp-idf to build an IR remote repeater.&#xA;  &#xA;    &lt;a href=&#34;#we-will-be-using-esp-idf-to-implement-irremoteesp8266-arduino-library-in-esp-idf-to-build-an-ir-remote-repeater&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h4&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://github.com/crankyoldgit/IRremoteESP8266&#34;&gt;&lt;strong&gt;IRremoteESP8266&lt;/strong&gt;&lt;/a&gt; is an Arduino Framework which can be used to &lt;strong&gt;send and receive&lt;/strong&gt; infra-red signals on an &lt;strong&gt;ESP8266&lt;/strong&gt; or an &lt;strong&gt;ESP32&lt;/strong&gt; using common 940nm IR LEDs and common IR receiver modules. e.g. TSOP{17,22,24,36,38,44,48}* demodulators etc.&lt;/p&gt;</description>
     </item>
   </channel>
