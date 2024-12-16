@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Harsh Kishorani</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://harshkishorani.github.io/tags/</link>
     <description>Recent content in Tags on Harsh Kishorani</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 21:45:44 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Untagged</title>
-      <link>http://localhost:1313/tags/untagged/</link>
-      <pubDate>Wed, 24 Apr 2024 21:45:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/untagged/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sun, 14 Apr 2024 20:30:35 +0530</lastBuildDate>
+    <atom:link href="https://harshkishorani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esp32</title>
-      <link>http://localhost:1313/tags/esp32/</link>
+      <link>https://harshkishorani.github.io/tags/esp32/</link>
       <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
-      <guid>http://localhost:1313/tags/esp32/</guid>
+      <guid>https://harshkishorani.github.io/tags/esp32/</guid>
       <description></description>
     </item>
     <item>
       <title>Iot</title>
-      <link>http://localhost:1313/tags/iot/</link>
+      <link>https://harshkishorani.github.io/tags/iot/</link>
       <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
-      <guid>http://localhost:1313/tags/iot/</guid>
+      <guid>https://harshkishorani.github.io/tags/iot/</guid>
       <description></description>
     </item>
   </channel>

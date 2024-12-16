@@ -2,33 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harsh Kishorani</title>
-    <link>http://localhost:1313/</link>
+    <link>https://harshkishorani.github.io/</link>
     <description>Recent content on Harsh Kishorani</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 21:45:44 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deploying Django server on Elastic Bean Stalk with Django Channels Websockets using Elastic Cache Redis and Postgres RDS.</title>
-      <link>http://localhost:1313/posts/2024/04/deploying-django-server-on-elastic-bean-stalk-with-django-channels-websockets-using-elastic-cache-redis-and-postgres-rds./</link>
-      <pubDate>Wed, 24 Apr 2024 21:45:44 +0530</pubDate>
-      <guid>http://localhost:1313/posts/2024/04/deploying-django-server-on-elastic-bean-stalk-with-django-channels-websockets-using-elastic-cache-redis-and-postgres-rds./</guid>
-      <description>Deploying a Django server on AWS Elastic Beanstalk can be a daunting task, especially when incorporating real-time functionality with Django Channels Websockets, Elastic Cache Redis, and Postgres RDS. Throughout my journey, I faced numerous challenges and learned a great deal about the intricacies of this process. In this blog, I aim to share my experiences and provide a comprehensive guide to help others navigate this complex deployment. From configuring Django Channels and Redis for real-time communication to setting up Postgres RDS for reliable database management, this guide will cover everything you need to know to successfully deploy your Django application on AWS Elastic Beanstalk.</description>
-    </item>
+    <lastBuildDate>Sun, 14 Apr 2024 20:30:35 +0530</lastBuildDate>
+    <atom:link href="https://harshkishorani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making an Universal IR remote using ESP32 (Part-1).</title>
-      <link>http://localhost:1313/universal-ir/</link>
+      <link>https://harshkishorani.github.io/universal-ir/</link>
       <pubDate>Sun, 14 Apr 2024 20:30:35 +0530</pubDate>
-      <guid>http://localhost:1313/universal-ir/</guid>
-      <description>We will be using esp idf to implement IRremoteesp8266 Arduino Library in esp-idf to build an IR remote repeater. The IRremoteESP8266 is an Arduino Framework which can be used to send and receive infra-red signals on an ESP8266 or an ESP32 using common 940nm IR LEDs and common IR receiver modules. e.g. TSOP{17,22,24,36,38,44,48}* demodulators etc.&#xA;Firstly we will learn how to implement this Arduino Framework into ESP-IDF.&#xA;(Note : You can implement any Arduino Library or Framework in ESP_IDF using this approach.</description>
+      <guid>https://harshkishorani.github.io/universal-ir/</guid>
+      <description>&lt;h3 id=&#34;we-will-be-using-esp-idf-to-implement-irremoteesp8266-arduino-library-in-esp-idf-to-build-an-ir-remote-repeater&#34;&gt;We will be using esp idf to implement IRremoteesp8266 Arduino Library in esp-idf to build an IR remote repeater.&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://github.com/crankyoldgit/IRremoteESP8266&#34;&gt;&lt;strong&gt;IRremoteESP8266&lt;/strong&gt;&lt;/a&gt; is an Arduino Framework which can be used to &lt;strong&gt;send and receive&lt;/strong&gt; infra-red signals on an &lt;strong&gt;ESP8266&lt;/strong&gt; or an &lt;strong&gt;ESP32&lt;/strong&gt; using common 940nm IR LEDs and common IR receiver modules. e.g. TSOP{17,22,24,36,38,44,48}* demodulators etc.&lt;/p&gt;&#xA;&lt;p&gt;Firstly we will learn how to implement this Arduino Framework into ESP-IDF.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;(Note : You can implement any Arduino Library or Framework in ESP_IDF using this approach. We won&amp;rsquo;t we using Platform-IO to do this step, although you can try that approach too.)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://harshkishorani.github.io/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>My name is Harsh Kishorani</description>
+      <guid>https://harshkishorani.github.io/about/</guid>
+      <description>&lt;p&gt;My name is Harsh Kishorani&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
