@@ -1,186 +1,115 @@
-baseURL = "https://harshkishorani.github.io/"
-title   = "Harsh Kishorani"
+baseURL = "/"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+defaultContentLanguage = "en"
+title = "Anubis2 Demo Site"
+theme = "anubis2"
+disqusShortname = ""
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-pagination.pagerSize  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
+[pagination]
+pagerSize = 5
 
 [params.author]
-  name = "Harsh Kishorani"
-
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+name = "Junyi"
+email  = "me@junyi.dev"
+location = "Singapore"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+description = "Anubis2 is another simple minimalist theme for Hugo blog engine."
+dateFormat = "2006-01-02"
+paginationSinglePost = true
 
-  # Metadata mostly used in document's head
-  # 
-  keywords = ""
-  images = [""]
 
-  # Home subtitle of the index page.
-  #
-  homeSubtitle = "Hello Friend! I write what I learn"
+colorTheme = "auto"
+colorThemeSwitcher = true
 
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+locale = "en-us"
+math = false # true: enable mathjax globally (default is false)
+toc = true
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
+# Graphcomment support
+graphcommentId = ""
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
-  disableReadOtherPosts = true
+GiscusRepo = "Junyi-99/hugo-theme-anubis2"
+GiscusRepoId = "R_kgDOLEp76Q"
+GiscusCategory = "General"
+GiscusCategoryId = "DIC_kwDOLEp76c4CcbPS"
+GiscusLazyLoad = false
+GiscusDataMapping = "pathname"
 
-  # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = true
+customCSS = ["custom-css/custom1.scss", "custom-css/custom2.css"]
 
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = true
+social = [
+    { id = "docs", url = "https://gohugo.io/documentation/" },
+    { id = "github", url = "https://github.com/Junyi-99/hugo-theme-anubis2" },
+    { id = "linkedin", url = "https://www.linkedin.com/" },
+    { id = "email", url = "example@example.com" },
+    # { id = "facebook", url = "#" },
+    { id = "instagram", url = "#" },
+    { id = "netease-music", url = "#" },
+    { id = "telegram", url = "#" },
+    { id = "x", url = "#" }
+    # { id = "youtube", url = "#" },
+    # { id = "bluesky", url = "#" }
+]
 
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
-  enableGlobalLanguageMenu = false
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = []
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
 
-  # Integrate Plausible.io
-  # plausibleDataDomain = 'test.com'
-  # plausibleScriptSource = 'https://plausible.io/js/script.js'
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 4
 
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  [params.footer]
-    trademark = false
-    rss = false
-    copyright = false
-    author = false
+[languages]
+[languages.en]
+languageName = "English"
 
-    topText = []
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
 
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+[markup]
+defaultMarkdownHandler = 'goldmark'
 
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd /home/"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-    # Append the current url pathname to logoText 
-    logoCursorPathname = true
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
 
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
+[markup.highlight]
+anchorLineNos      = false
+codeFences         = true # tested with true and false. Both work.
+noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
+style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
+tabWidth           = 4
 
-  # Uncomment this if you want a portrait on your start page
-  #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+[params.UmamiAnalytics]
+# enabled = true
+# dnt = false
+# id = "d01ce82c-c8f4-4714-ba37-ba4899f2a885"                                            # Website ID
+# datacache = false
+# url = "https://umami.xtra.science/script.js"
+# shareUrl = "https://umami.xtra.science/share/Fy0goUn0b9rrxxGe/hugo-theme-anubis2.netlify.app"
 
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/HarshKishorani/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:hkishorani7@gmail.com"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/HarshKishorani/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/harsh-kishorani/"
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+[params.GoogleAnalytics]
+# enabled = true
+# gtag = "G-32F16X8HLF"
