@@ -1,7 +1,7 @@
 ---
-title: "Making an Universal IR remote using ESP32 (Part-1)."
+title: "Universal IR remote | Setup and Installation."
 date: "2024-04-14"
-summary: "Michael's weeknotes for November 4-10, 2024."
+summary: "Making an Universal IR Remote Control using an ESP32."
 categories: ["esp32","iot"]
 ---
 
