@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Harsh Kishorani</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Harsh Kishorani</description>
+    <title>Iot on Harsh Kishorani</title>
+    <link>http://localhost:1313/categories/iot/</link>
+    <description>Recent content in Iot on Harsh Kishorani</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hkishorani7@gmail.com (Harsh Kishorani)</managingEditor>
     <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
     <copyright>Harsh Kishorani</copyright>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making an Universal IR remote using ESP32 (Part-1).</title>
       <link>http://localhost:1313/universal-ir/</link>

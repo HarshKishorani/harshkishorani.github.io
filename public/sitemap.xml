@@ -2,29 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://harshkishorani.github.io/tags/esp32/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/tags/iot/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/categories/esp32/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/universal-ir/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/categories/iot/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/universal-ir/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/tags/</loc>
-    <lastmod>2024-04-14T20:30:35+05:30</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/</loc>
+    <loc>http://localhost:1313/graph/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/graph/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

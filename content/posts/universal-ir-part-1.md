@@ -1,15 +1,10 @@
 ---
 title: "Making an Universal IR remote using ESP32 (Part-1)."
 url: "universal-ir"
-date: 2024-04-14T20:30:35+05:30
-draft: false
-toc: false
-images:
-tags:
-  - esp32
-  - iot
+date: "2024-04-14"
+summary: "Michael's weeknotes for November 4-10, 2024."
+categories: ["esp32","iot"]
 ---
-
 
 ### We will be using esp idf to implement IRremoteesp8266 Arduino Library in esp-idf to build an IR remote repeater.
 

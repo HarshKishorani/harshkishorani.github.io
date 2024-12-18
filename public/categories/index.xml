@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on John Doe&#39;s website</title>
-    <link>https://harshkishorani.github.io/categories/</link>
-    <description>Recent content in Categories on John Doe&#39;s website</description>
+    <title>Categories on Harsh Kishorani</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Harsh Kishorani</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>John Doe</copyright>
-    <atom:link href="https://harshkishorani.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>hkishorani7@gmail.com (Harsh Kishorani)</managingEditor>
+    <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
+    <copyright>Harsh Kishorani</copyright>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esp32</title>
+      <link>http://localhost:1313/categories/esp32/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/categories/esp32/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iot</title>
+      <link>http://localhost:1313/categories/iot/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/categories/iot/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

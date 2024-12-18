@@ -1,8 +1,9 @@
 baseURL = "https://harshkishorani.github.io/"
-languageCode = 'en-us'
-title = "John Doe's website"
-copyright = 'John Doe' # Used in the footer copyright mention.
-enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
+languageCode = "en-us"
+title = "Harsh Kishorani"
+enableRobotsTXT = true
+titleCaseStyle = "firstupper"
+copyright = 'Harsh Kishorani'
 
 [module]
   [[module.imports]]
@@ -13,18 +14,32 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
   section = ['html', 'rss', 'json']
   page = ['html']
 
-[menus]
-  [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
+[frontmatter]
+  lastmod = ["lastmod", "modified"]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    pageRef = "/posts"
     weight = 20
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    pageRef = "/notes"
     weight = 30
-  [[menus.main]]
-    name = 'Graph'
-    pageRef = '/graph'
+
+  [[menu.main]]
+    identifier = "graph"
+    name = "Graph"
+    pageRef = "/graph"
     weight = 40
 
 [markup]
@@ -36,3 +51,42 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
+
+[params]
+  description = "Occasional posts from a security engineer on coding, side projects, life, and tech spelunking."
+
+  [params.author]
+    name = "Harsh Kishorani"
+    email = "hkishorani7@gmail.com"
+
+  [params.footer]
+    creativeCommonsLicense = 'by_sa'
+
+  [params.robotstxt]
+    blockCC = true
+    blockAI = true
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
