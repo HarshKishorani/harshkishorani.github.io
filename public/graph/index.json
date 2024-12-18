@@ -1,15 +1,37 @@
 {
   "graph": {
-    "/universal-ir/": {
+    "/notes/hold-my-brain/": {
       "in": [],
+      "out": []
+    },
+    "/posts/universal-ir-part-1/": {
+      "in": [],
+      "out": [
+        "/posts/universal-ir-part-2/"
+      ]
+    },
+    "/posts/universal-ir-part-2/": {
+      "in": [
+        "/posts/universal-ir-part-1/"
+      ],
       "out": []
     }
   },
   "pages": {
-    "/universal-ir/": {
-      "permalink": "/universal-ir/",
+    "/notes/hold-my-brain/": {
+      "permalink": "/notes/hold-my-brain/",
+      "section": "notes",
+      "title": "Hold my brain! 🧠"
+    },
+    "/posts/universal-ir-part-1/": {
+      "permalink": "/posts/universal-ir-part-1/",
       "section": "posts",
       "title": "Making an Universal IR remote using ESP32 (Part-1)."
+    },
+    "/posts/universal-ir-part-2/": {
+      "permalink": "/posts/universal-ir-part-2/",
+      "section": "posts",
+      "title": "Making an Universal IR remote using ESP32 (Part-2)."
     }
   }
 }

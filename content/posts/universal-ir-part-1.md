@@ -1,6 +1,5 @@
 ---
 title: "Making an Universal IR remote using ESP32 (Part-1)."
-url: "universal-ir"
 date: "2024-04-14"
 summary: "Michael's weeknotes for November 4-10, 2024."
 categories: ["esp32","iot"]
@@ -42,7 +41,7 @@ Let's test out the arduino library. Paste the following code into your `main.cpp
 (Note : In `sdkconfig.defaults` of project set `CONFIG_FREERTOS_HZ=1000`.)
 
 
-```
+```C++
 #include "Arduino.h"
 
 
@@ -72,7 +71,7 @@ Now you can similarly create a separate idf component for the **IRremoteESP8266*
 I will copy the `src` folder from [**IRremoteESP8266**](https://github.com/crankyoldgit/IRremoteESP8266) folder and paste it in `main\`. And update the `main/CmakeLists.txt` as following.
 
 
-```
+```C++
 # Define where the source files are located
 set(SOURCE_DIR "${CMAKE_CURRENT_LIST_DIR}/src")
 
@@ -108,7 +107,7 @@ Our Library is successfully added to the IDF environment. Copy the following cod
 *(Note : I will be using an ESP32 development board and an IR receiver and transmitter at GPIO 18 and 19 respectively.)*
 
 
-```
+```C++
 #include "Arduino.h"
 #include "src/IRrecv.h"
 #include "src/IRsend.h"
@@ -216,3 +215,5 @@ extern "C" void app_main()
   }
 }
 ```
+
+Part 2 Coming soon : {{< backlink "universal-ir-part-2" >}}

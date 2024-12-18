@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://harshkishorani.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/esp32/</loc>
+    <loc>https://harshkishorani.github.io/categories/esp32/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://harshkishorani.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/iot/</loc>
+    <loc>https://harshkishorani.github.io/categories/iot/</loc>
   </url><url>
-    <loc>http://localhost:1313/universal-ir/</loc>
+    <loc>https://harshkishorani.github.io/posts/universal-ir-part-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://harshkishorani.github.io/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://harshkishorani.github.io/posts/universal-ir-part-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/graph/</loc>
+    <loc>https://harshkishorani.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://harshkishorani.github.io/graph/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/notes/hold-my-brain/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/notes/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/tags/</loc>
   </url>
 </urlset>

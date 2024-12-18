@@ -53,8 +53,6 @@ copyright = 'Harsh Kishorani'
         block = true
 
 [params]
-  description = "Occasional posts from a security engineer on coding, side projects, life, and tech spelunking."
-
   [params.author]
     name = "Harsh Kishorani"
     email = "hkishorani7@gmail.com"

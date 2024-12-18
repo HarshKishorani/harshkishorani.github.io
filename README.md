@@ -7,6 +7,9 @@ Update all modules
 
 hugo module docs : https://gohugo.io/categories/hugo-modules
 
+
 Theme github : https://github.com/michenriksen/hugo-theme-til
+
 Theme site and docs : https://michenriksen.com/til-example-site/
+
 Theme site and docs github : https://github.com/michenriksen/til-example-site
