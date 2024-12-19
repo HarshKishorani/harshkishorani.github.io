@@ -2,6 +2,21 @@
   "graph": {
     "/notes/hold-my-brain/": {
       "in": [],
+      "out": [
+        "/posts/mathematics/fermats-last-theorem/",
+        "/posts/physics/maxwells-equations/"
+      ]
+    },
+    "/posts/mathematics/fermats-last-theorem/": {
+      "in": [
+        "/notes/hold-my-brain/"
+      ],
+      "out": []
+    },
+    "/posts/physics/maxwells-equations/": {
+      "in": [
+        "/notes/hold-my-brain/"
+      ],
       "out": []
     },
     "/posts/universal-ir/universal-ir-part-1/": {
@@ -22,6 +37,16 @@
       "permalink": "/notes/hold-my-brain/",
       "section": "notes",
       "title": "Hold my brain! 🧠"
+    },
+    "/posts/mathematics/fermats-last-theorem/": {
+      "permalink": "/posts/mathematics/fermats-last-theorem/",
+      "section": "posts",
+      "title": "Fermat's last theorem and it's proof"
+    },
+    "/posts/physics/maxwells-equations/": {
+      "permalink": "/posts/physics/maxwells-equations/",
+      "section": "posts",
+      "title": "Explaination to Maxwell's Equation."
     },
     "/posts/universal-ir/universal-ir-part-1/": {
       "permalink": "/posts/universal-ir/universal-ir-part-1/",

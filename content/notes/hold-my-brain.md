@@ -91,3 +91,5 @@ title: Hold my brain! 🧠
 81. Early Computers : [https://youtu.be/FU_YFpfDqqA](https://youtu.be/FU_YFpfDqqA?si=7uXvfjD3rRnsBaIU)
 82. Koch Curve : Line with infinite length but finite area.
 83. What is entropy : [https://youtu.be/DxL2HoqLbyA](https://youtu.be/DxL2HoqLbyA?si=oE47fa8_13a_DsQx)
+84. Fermat's last theorem and it's proof. {{< backlink "fermat's-last-theorem" Coming-Soon>}}
+85. Maxwell's Equations. {{< backlink "maxwells-equations" Coming-Soon>}}
