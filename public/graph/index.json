@@ -7,6 +7,10 @@
         "/posts/physics/maxwells-equations/"
       ]
     },
+    "/posts/controlling-rgb-led-using-mediapipe/": {
+      "in": [],
+      "out": []
+    },
     "/posts/mathematics/fermats-last-theorem/": {
       "in": [
         "/notes/hold-my-brain/"
@@ -37,6 +41,11 @@
       "permalink": "/notes/hold-my-brain/",
       "section": "notes",
       "title": "Hold my brain! 🧠"
+    },
+    "/posts/controlling-rgb-led-using-mediapipe/": {
+      "permalink": "/posts/controlling-rgb-led-using-mediapipe/",
+      "section": "posts",
+      "title": "Transform Your RGB Lights with Finger Gestures: A Mediapipe \u0026 ESP32 Project"
     },
     "/posts/mathematics/fermats-last-theorem/": {
       "permalink": "/posts/mathematics/fermats-last-theorem/",

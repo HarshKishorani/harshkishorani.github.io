@@ -93,3 +93,4 @@ title: Hold my brain! 🧠
 83. What is entropy : [https://youtu.be/DxL2HoqLbyA](https://youtu.be/DxL2HoqLbyA?si=oE47fa8_13a_DsQx)
 84. Fermat's last theorem and it's proof. {{< backlink "fermat's-last-theorem" Coming-Soon>}}
 85. Maxwell's Equations. {{< backlink "maxwells-equations" Coming-Soon>}}
+86. World's Most Beautiful Equation: Dirac's Equation: The equation accurately describes the behavior of electrons at any speed. 

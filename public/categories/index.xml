@@ -12,6 +12,13 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://harshkishorani.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Artificial Intelligence</title>
+      <link>https://harshkishorani.github.io/categories/artificial-intelligence/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>https://harshkishorani.github.io/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Esp32</title>
       <link>https://harshkishorani.github.io/categories/esp32/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
@@ -23,6 +30,13 @@
       <link>https://harshkishorani.github.io/categories/iot/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
       <guid>https://harshkishorani.github.io/categories/iot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mediapipe</title>
+      <link>https://harshkishorani.github.io/categories/mediapipe/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>https://harshkishorani.github.io/categories/mediapipe/</guid>
       <description></description>
     </item>
   </channel>
