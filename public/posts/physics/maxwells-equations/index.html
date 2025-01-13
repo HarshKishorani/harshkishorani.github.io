@@ -22,6 +22,7 @@
 
   <meta itemprop="name" content="Explaination to Maxwell&#39;s Equation.">
   <meta itemprop="description" content="Coming Soon. Stay tuned">
+  <meta itemprop="wordCount" content="155">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Explaination to Maxwell&#39;s Equation.">
@@ -45,6 +46,35 @@
       ></script>
   
 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+  integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg="
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+  integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  integrity="sha256-e1fUJ6xicGd9r42DgN7SzHMzb5FJoWe44f4NbvZmBK4="
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true }, 
+        { left: '$$', right: '$$', display: true }, 
+        { left: '\\(', right: '\\)', display: false } 
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -67,9 +97,9 @@
   },
   "mainEntityOfPage": "https://harshkishorani.github.io/posts/physics/maxwells-equations/",
   "name": "Explaination to Maxwell's Equation.",
-  "timeRequired": "PT0M",
+  "timeRequired": "PT1M",
   "url": "https://harshkishorani.github.io/posts/physics/maxwells-equations/",
-  "wordCount": 0
+  "wordCount": 155
 }
 </script>
 
@@ -112,7 +142,122 @@
       <h1 class="!mb-1">Explaination to Maxwell&#39;s Equation.</h1>
     </header>
 
-    
+    <h4 id="1-gausss-law-for-electric-fields" class="scroll-mt-8 group">
+  1. <strong>Gauss&rsquo;s Law for Electric Fields</strong>
+  
+    <a href="#1-gausss-law-for-electric-fields"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p><em>The electric flux through a closed surface is proportional to the total charge enclosed by that surface.</em></p>
+\[
+\oint_{\partial V} \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}
+\]<hr>
+<h4 id="2-gausss-law-for-magnetic-fields" class="scroll-mt-8 group">
+  2. <strong>Gauss&rsquo;s Law for Magnetic Fields</strong>
+  
+    <a href="#2-gausss-law-for-magnetic-fields"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p><em>The magnetic flux through a closed surface is always zero, implying there are no magnetic monopoles.</em></p>
+\[
+\oint_{\partial V} \mathbf{B} \cdot d\mathbf{A} = 0
+\]<hr>
+<h4 id="3-faradays-law-of-induction" class="scroll-mt-8 group">
+  3. <strong>Faraday&rsquo;s Law of Induction</strong>
+  
+    <a href="#3-faradays-law-of-induction"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p><em>The electromotive force around a closed loop is equal to the negative rate of change of magnetic flux through the loop.</em></p>
+\[
+\oint_{\partial S} \mathbf{E} \cdot d\mathbf{l} = -\frac{d}{dt} \int_S \mathbf{B} \cdot d\mathbf{A}
+\]<hr>
+<h4 id="4-ampères-law-with-maxwells-correction" class="scroll-mt-8 group">
+  4. <strong>Ampère&rsquo;s Law with Maxwell&rsquo;s Correction</strong>
+  
+    <a href="#4-amp%c3%a8res-law-with-maxwells-correction"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p><em>The circulation of the magnetic field around a closed loop is equal to the sum of the conduction current and the displacement current through the loop.</em></p>
+\[
+\oint_{\partial S} \mathbf{B} \cdot d\mathbf{l} = \mu_0 \int_S \mathbf{J} \cdot d\mathbf{A} + \mu_0 \varepsilon_0 \frac{d}{dt} \int_S \mathbf{E} \cdot d\mathbf{A}
+\]
   </article>
     <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
     <section class="flex flex-col space-y-4" aria-hidden="true">
@@ -212,7 +357,7 @@
       <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
         <section class="items-top flex flex-row justify-between opacity-70">
   <div class="flex flex-col space-y-2">
-      <p>Copyright &copy; 2024, Harsh Kishorani.</p>
+      <p>Copyright &copy; 2025, Harsh Kishorani.</p>
       <div
         xmlns:cc="https://creativecommons.org/ns#"
         xmlns:dct="http://purl.org/dc/terms/"

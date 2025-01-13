@@ -49,10 +49,19 @@ copyright = 'Harsh Kishorani'
 
   [markup.goldmark]
     [markup.goldmark.parser]
+      [markup.goldmark.extensions]
+        [markup.goldmark.extensions.passthrough]
+          enable = true
+          [markup.goldmark.extensions.passthrough.delimiters]
+            block = [['\[', '\]'], ['$$', '$$']]
+            inline = [['\(', '\)']]
+
       [markup.goldmark.parser.attribute]
         block = true
 
 [params]
+  math = false
+
   [params.author]
     name = "Harsh Kishorani"
     email = "hkishorani7@gmail.com"
