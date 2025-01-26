@@ -24,7 +24,7 @@
   <meta itemprop="name" content="Universal IR remote | Hardware.">
   <meta itemprop="description" content="Making an Universal IR Remote Control using an ESP32.">
   <meta itemprop="datePublished" content="2024-12-18T00:00:00+00:00">
-  <meta itemprop="wordCount" content="4">
+  <meta itemprop="wordCount" content="720">
   <meta itemprop="keywords" content="Esp32,Iot">
 
   <meta name="twitter:card" content="summary">
@@ -75,9 +75,9 @@
   },
   "mainEntityOfPage": "https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-2/",
   "name": "Universal IR remote | Hardware.",
-  "timeRequired": "PT1M",
+  "timeRequired": "PT4M",
   "url": "https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-2/",
-  "wordCount": 4
+  "wordCount": 720
 }
 </script>
 
@@ -124,10 +124,10 @@
         </div>
     </header>
 
-    <h3 id="coming-soon-stay-tuned" class="scroll-mt-8 group">
-  Coming Soon. Stay tuned
+    <h4 id="hardware-setup-for-ir-remote-repeater-using-esp-idf" class="scroll-mt-8 group">
+  Hardware Setup for IR Remote Repeater Using ESP-IDF
   
-    <a href="#coming-soon-stay-tuned"
+    <a href="#hardware-setup-for-ir-remote-repeater-using-esp-idf"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -148,7 +148,297 @@
 
     </a>
   
-</h3>
+</h4>
+<p>To complement the software implementation explained in Part 1, we now focus on the hardware setup for building the IR remote repeater using ESP-IDF and the IRremoteESP8266 library. By the end of this guide, you’ll have a clear understanding of the components required and the wiring details to ensure proper functionality.</p>
+<h5 id="components-required" class="scroll-mt-8 group">
+  Components Required:
+  
+    <a href="#components-required"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<ol>
+<li>
+<p><strong>ESP32 Development Board</strong></p>
+</li>
+<li>
+<p><strong>IR Receiver Module</strong></p>
+<ul>
+<li>Common IR receiver modules like the TSOP1738 or TSOP38238 work well for this project.</li>
+</ul>
+</li>
+<li>
+<p><strong>IR LED (Infrared LED)</strong></p>
+<ul>
+<li>A 940nm IR LED is suitable for transmitting the IR signals. Optionally, a high-power IR LED can be used for extended range.</li>
+</ul>
+</li>
+<li>
+<p><strong>Resistors</strong></p>
+<ul>
+<li>A 220-ohm resistor for the IR LED.</li>
+<li>A pull-up resistor (10kΩ) for the IR receiver (optional if it’s not integrated into the module).</li>
+</ul>
+</li>
+<li>
+<p><strong>Transistor</strong></p>
+<ul>
+<li>A 2N2222 or BC547 transistor to drive the IR LED. This is essential to amplify the current and ensure strong transmission.</li>
+</ul>
+</li>
+<li>
+<p><strong>Diode</strong></p>
+<ul>
+<li>A 1N4148 diode (optional) to protect the circuit in case of reverse polarity.</li>
+</ul>
+</li>
+<li>
+<p><strong>Capacitors</strong></p>
+<ul>
+<li>Decoupling capacitors (10μF and 0.1μF) near the power pins of the IR receiver for stability.</li>
+</ul>
+</li>
+<li>
+<p><strong>Breadboard and Jumper Wires</strong></p>
+<ul>
+<li>For prototyping and connecting components together.</li>
+</ul>
+</li>
+<li>
+<p><strong>Power Source</strong></p>
+<ul>
+<li>Use a USB cable to power the ESP32 development board or an external 5V power supply.</li>
+</ul>
+</li>
+</ol>
+<h5 id="hardware-connections" class="scroll-mt-8 group">
+  Hardware Connections:
+  
+    <a href="#hardware-connections"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Below are the detailed connections for setting up the IR remote repeater:</p>
+<ol>
+<li>
+<p><strong>IR Receiver Module</strong></p>
+<ul>
+<li>Connect the <strong>OUT</strong> pin of the IR receiver module to GPIO 18 on the ESP32 (this is defined as <code>kRecvPin</code> in the code).</li>
+<li>Connect the <strong>VCC</strong> pin of the IR receiver to the 3.3V pin on the ESP32.</li>
+<li>Connect the <strong>GND</strong> pin of the IR receiver to the GND pin on the ESP32.</li>
+</ul>
+<p><em>(Note: If your IR receiver does not include an onboard pull-up resistor, connect a 10kΩ pull-up resistor between the OUT and VCC pins.)</em></p>
+</li>
+<li>
+<p><strong>IR LED Circuit</strong></p>
+<ul>
+<li>Connect the <strong>anode</strong> (longer leg) of the IR LED to the <strong>collector</strong> of the transistor (2N2222 or BC547).</li>
+<li>Connect the <strong>cathode</strong> (shorter leg) of the IR LED to the GND via a 220Ω resistor.</li>
+<li>Connect the <strong>emitter</strong> of the transistor to GND.</li>
+<li>Connect the <strong>base</strong> of the transistor to GPIO 19 on the ESP32 (this is defined as <code>kIrLedPin</code> in the code) via a 1kΩ resistor.</li>
+</ul>
+<p><em>(Note: Using a transistor ensures the IR LED gets enough current for effective signal transmission.)</em></p>
+</li>
+<li>
+<p><strong>ESP32 Development Board</strong></p>
+<ul>
+<li>Connect the ESP32 to your computer using a USB cable for power and programming.</li>
+<li>Ensure the GPIO pins specified in the code (18 for receiver and 19 for transmitter) are correctly wired to the respective components.</li>
+</ul>
+</li>
+</ol>
+<h5 id="assembly-tips" class="scroll-mt-8 group">
+  Assembly Tips:
+  
+    <a href="#assembly-tips"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<ol>
+<li>
+<p><strong>IR LED Orientation</strong></p>
+<ul>
+<li>Ensure the IR LED’s anode and cathode are connected properly. Reverse polarity may damage the LED.</li>
+</ul>
+</li>
+<li>
+<p><strong>IR Receiver Placement</strong></p>
+<ul>
+<li>Position the IR receiver so it’s exposed to incoming IR signals. Avoid blocking it with components or wires.</li>
+</ul>
+</li>
+<li>
+<p><strong>Power Supply</strong></p>
+<ul>
+<li>Use a stable power source for the ESP32 and connected components. Fluctuations may cause erratic behavior.</li>
+</ul>
+</li>
+<li>
+<p><strong>Decoupling Capacitors</strong></p>
+<ul>
+<li>Place decoupling capacitors close to the power pins of the IR receiver for added stability.</li>
+</ul>
+</li>
+</ol>
+<h5 id="testing-the-setup" class="scroll-mt-8 group">
+  Testing the Setup:
+  
+    <a href="#testing-the-setup"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<ol>
+<li>After completing the wiring, upload the code from Part 1 to the ESP32 using ESP-IDF.</li>
+<li>Open the serial monitor in your IDE (e.g., VSCode or ESP-IDF terminal) at a baud rate of 115200.</li>
+<li>Point a remote control at the IR receiver and press a button. You should see the IR signal details printed in the serial monitor.</li>
+<li>The IR LED should retransmit the captured signal. You can verify this by pointing it toward another device (e.g., a TV or an air conditioner) and observing if it reacts as expected.</li>
+</ol>
+<h5 id="troubleshooting" class="scroll-mt-8 group">
+  Troubleshooting:
+  
+    <a href="#troubleshooting"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<ul>
+<li>
+<p><strong>No Signal Detected:</strong></p>
+<ul>
+<li>Double-check the connections to the IR receiver module.</li>
+<li>Verify the GPIO pin configuration in the code.</li>
+</ul>
+</li>
+<li>
+<p><strong>Weak IR Transmission:</strong></p>
+<ul>
+<li>Ensure the IR LED is correctly wired and not damaged.</li>
+<li>Replace the 220Ω resistor with a lower value (e.g., 150Ω) to increase the current if the transistor supports it.</li>
+</ul>
+</li>
+<li>
+<p><strong>ESP32 Resets Frequently:</strong></p>
+<ul>
+<li>Check if the IR LED circuit is drawing too much power.</li>
+<li>Use an external 5V power supply if necessary.</li>
+</ul>
+</li>
+</ul>
+<h5 id="conclusion" class="scroll-mt-8 group">
+  Conclusion:
+  
+    <a href="#conclusion"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>With the hardware setup complete, your IR remote repeater is ready to capture and retransmit IR signals. This project provides a solid foundation for further development, such as decoding specific protocols, adding a web interface, or controlling devices via Wi-Fi. Stay tuned for future updates on enhancing this project!</p>
 
   </article>
     <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
