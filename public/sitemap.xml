@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://harshkishorani.github.io/categories/artificial-intelligence/</loc>
+    <loc>https://harshkishorani.github.io/posts/ec2-django-deployment/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/categories/aws/</loc>
   </url><url>
     <loc>https://harshkishorani.github.io/categories/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/esp32/</loc>
+    <loc>https://harshkishorani.github.io/categories/django/</loc>
   </url><url>
     <loc>https://harshkishorani.github.io/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/posts/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/categories/artificial-intelligence/</loc>
+  </url><url>
+    <loc>https://harshkishorani.github.io/categories/esp32/</loc>
   </url><url>
     <loc>https://harshkishorani.github.io/categories/iot/</loc>
   </url><url>
     <loc>https://harshkishorani.github.io/categories/mediapipe/</loc>
-  </url><url>
-    <loc>https://harshkishorani.github.io/posts/</loc>
   </url><url>
     <loc>https://harshkishorani.github.io/posts/controlling-rgb-led-using-mediapipe/</loc>
   </url><url>

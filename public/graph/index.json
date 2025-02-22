@@ -11,6 +11,10 @@
       "in": [],
       "out": []
     },
+    "/posts/ec2-django-deployment/": {
+      "in": [],
+      "out": []
+    },
     "/posts/mathematics/fermats-last-theorem/": {
       "in": [
         "/notes/hold-my-brain/"
@@ -46,6 +50,11 @@
       "permalink": "/posts/controlling-rgb-led-using-mediapipe/",
       "section": "posts",
       "title": "Transform Your RGB Lights with Finger Gestures: A Mediapipe \u0026 ESP32 Project"
+    },
+    "/posts/ec2-django-deployment/": {
+      "permalink": "/posts/ec2-django-deployment/",
+      "section": "posts",
+      "title": "🚀 Complete Django Deployment Guide with EC2"
     },
     "/posts/mathematics/fermats-last-theorem/": {
       "permalink": "/posts/mathematics/fermats-last-theorem/",
