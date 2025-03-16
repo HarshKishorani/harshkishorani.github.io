@@ -94,3 +94,4 @@ title: Hold my brain! 🧠
 84. Fermat's last theorem and it's proof. {{< backlink "fermat's-last-theorem" Coming-Soon>}}
 85. {{< backlink "maxwells-equations" "Maxwell's Equations.">}}
 86. World's Most Beautiful Equation: Dirac's Equation: The equation accurately describes the behavior of electrons at any speed. 
+87. Mathermatical Games column by Martin Gardener : [Tibees Video](https://youtu.be/y1VWU-bFhdk?si=45toBwszfBqhj_WQ)
