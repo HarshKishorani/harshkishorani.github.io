@@ -2,44 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://harshkishorani.github.io/posts/ec2-django-deployment/</loc>
+    <loc>http://localhost:1313/categories/android/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/aws/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/</loc>
+    <loc>http://localhost:1313/tags/ecef/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/django/</loc>
+    <loc>http://localhost:1313/tags/ephemeris/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/</loc>
+    <loc>http://localhost:1313/tags/flutter/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/</loc>
+    <loc>http://localhost:1313/tags/geodesy/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/artificial-intelligence/</loc>
+    <loc>http://localhost:1313/tags/gnss/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/esp32/</loc>
+    <loc>http://localhost:1313/tags/gps/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/iot/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/categories/mediapipe/</loc>
+    <loc>http://localhost:1313/posts/livesat_gnss/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/controlling-rgb-led-using-mediapipe/</loc>
+    <loc>http://localhost:1313/posts/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-2/</loc>
+    <loc>http://localhost:1313/tags/rinex/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-1/</loc>
+    <loc>http://localhost:1313/categories/satellite-navigation/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/about/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/graph/</loc>
+    <loc>http://localhost:1313/posts/ec2-django-deployment/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/physics/maxwells-equations/</loc>
+    <loc>http://localhost:1313/categories/aws/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/posts/mathematics/fermats-last-theorem/</loc>
+    <loc>http://localhost:1313/categories/django/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/notes/hold-my-brain/</loc>
+    <loc>http://localhost:1313/categories/artificial-intelligence/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/notes/</loc>
+    <loc>http://localhost:1313/categories/esp32/</loc>
   </url><url>
-    <loc>https://harshkishorani.github.io/tags/</loc>
+    <loc>http://localhost:1313/categories/iot/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/mediapipe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/controlling-rgb-led-using-mediapipe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/universal-ir/universal-ir-part-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/universal-ir/universal-ir-part-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/graph/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/physics/maxwells-equations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/mathematics/fermats-last-theorem/</loc>
+  </url><url>
+    <loc>http://localhost:1313/notes/hold-my-brain/</loc>
+  </url><url>
+    <loc>http://localhost:1313/notes/</loc>
   </url>
 </urlset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gps on Harsh Kishorani</title>
+    <link>http://localhost:1313/tags/gps/</link>
+    <description>Recent content in Gps on Harsh Kishorani</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>hkishorani7@gmail.com (Harsh Kishorani)</managingEditor>
+    <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
+    <copyright>Harsh Kishorani</copyright>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livesat GNSS</title>
+      <link>http://localhost:1313/posts/livesat_gnss/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/posts/livesat_gnss/</guid>
+      <description>A technical deep dive into how I use Android raw GNSS data and broadcast ephemeris to compute live satellite positions, covering time systems, anomaly solving, orbital corrections, ECEF transformation, and geodetic conversion for 3D visualization.</description>
+    </item>
+  </channel>
+</rss>

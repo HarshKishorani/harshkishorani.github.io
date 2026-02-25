@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Harsh Kishorani</title>
-    <link>https://harshkishorani.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Harsh Kishorani</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -10,47 +10,54 @@
     <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
     <copyright>Harsh Kishorani</copyright>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://harshkishorani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livesat GNSS</title>
+      <link>http://localhost:1313/posts/livesat_gnss/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/posts/livesat_gnss/</guid>
+      <description>A technical deep dive into how I use Android raw GNSS data and broadcast ephemeris to compute live satellite positions, covering time systems, anomaly solving, orbital corrections, ECEF transformation, and geodetic conversion for 3D visualization.</description>
+    </item>
     <item>
       <title>🚀 Complete Django Deployment Guide with EC2</title>
-      <link>https://harshkishorani.github.io/posts/ec2-django-deployment/</link>
+      <link>http://localhost:1313/posts/ec2-django-deployment/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/ec2-django-deployment/</guid>
+      <guid>http://localhost:1313/posts/ec2-django-deployment/</guid>
       <description>This comprehensive guide will walk you through deploying a Django project on Amazon EC2, complete with WebSocket support HTTPS, and database setup.</description>
     </item>
     <item>
       <title>Transform Your RGB Lights with Finger Gestures: A Mediapipe &amp; ESP32 Project</title>
-      <link>https://harshkishorani.github.io/posts/controlling-rgb-led-using-mediapipe/</link>
+      <link>http://localhost:1313/posts/controlling-rgb-led-using-mediapipe/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/controlling-rgb-led-using-mediapipe/</guid>
+      <guid>http://localhost:1313/posts/controlling-rgb-led-using-mediapipe/</guid>
       <description>Learn how to control RGB LED Strip Lights with your fingers using Mediapipe and ESP32.</description>
     </item>
     <item>
       <title>Universal IR remote | Hardware.</title>
-      <link>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-2/</link>
+      <link>http://localhost:1313/posts/universal-ir/universal-ir-part-2/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-2/</guid>
+      <guid>http://localhost:1313/posts/universal-ir/universal-ir-part-2/</guid>
       <description>Making an Universal IR Remote Control using an ESP32.</description>
     </item>
     <item>
       <title>Universal IR remote | Setup and Installation.</title>
-      <link>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-1/</link>
+      <link>http://localhost:1313/posts/universal-ir/universal-ir-part-1/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/universal-ir/universal-ir-part-1/</guid>
+      <guid>http://localhost:1313/posts/universal-ir/universal-ir-part-1/</guid>
       <description>Making an Universal IR Remote Control using an ESP32.</description>
     </item>
     <item>
       <title>Explaination to Maxwell&#39;s Equation.</title>
-      <link>https://harshkishorani.github.io/posts/physics/maxwells-equations/</link>
+      <link>http://localhost:1313/posts/physics/maxwells-equations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/physics/maxwells-equations/</guid>
+      <guid>http://localhost:1313/posts/physics/maxwells-equations/</guid>
       <description>Coming Soon. Stay tuned</description>
     </item>
     <item>
       <title>Fermat&#39;s last theorem and it&#39;s proof</title>
-      <link>https://harshkishorani.github.io/posts/mathematics/fermats-last-theorem/</link>
+      <link>http://localhost:1313/posts/mathematics/fermats-last-theorem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/posts/mathematics/fermats-last-theorem/</guid>
+      <guid>http://localhost:1313/posts/mathematics/fermats-last-theorem/</guid>
       <description>Coming Soon. Stay tuned</description>
     </item>
   </channel>

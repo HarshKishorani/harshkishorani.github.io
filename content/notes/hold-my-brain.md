@@ -95,3 +95,6 @@ title: Hold my brain! 🧠
 85. {{< backlink "maxwells-equations" "Maxwell's Equations.">}}
 86. World's Most Beautiful Equation: Dirac's Equation: The equation accurately describes the behavior of electrons at any speed. 
 87. Mathermatical Games column by Martin Gardener : [Tibees Video](https://youtu.be/y1VWU-bFhdk?si=45toBwszfBqhj_WQ)
+88. Why light refracts and snells law happens : The nature does the best optimisation i.e light takes the path with shortest possible time to reach from origin to target. But how does it know????
+89. How bernoulli found out about cycloid (brachistochrone curve) using above note [Veritasium's video](https://youtu.be/Q10_srZ-pbs?t=437&si=VpGPZvV64lHH2L3g)
+90. Principle of least action. N

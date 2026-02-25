@@ -2,13 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Harsh Kishorani</title>
-    <link>https://harshkishorani.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Harsh Kishorani</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hkishorani7@gmail.com (Harsh Kishorani)</managingEditor>
     <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
     <copyright>Harsh Kishorani</copyright>
-    <atom:link href="https://harshkishorani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ecef</title>
+      <link>http://localhost:1313/tags/ecef/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/ecef/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ephemeris</title>
+      <link>http://localhost:1313/tags/ephemeris/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/ephemeris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geodesy</title>
+      <link>http://localhost:1313/tags/geodesy/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/geodesy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnss</title>
+      <link>http://localhost:1313/tags/gnss/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/gnss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gps</title>
+      <link>http://localhost:1313/tags/gps/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/gps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rinex</title>
+      <link>http://localhost:1313/tags/rinex/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/tags/rinex/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -15,6 +15,10 @@
       "in": [],
       "out": []
     },
+    "/posts/livesat_gnss/": {
+      "in": [],
+      "out": []
+    },
     "/posts/mathematics/fermats-last-theorem/": {
       "in": [
         "/notes/hold-my-brain/"
@@ -55,6 +59,11 @@
       "permalink": "/posts/ec2-django-deployment/",
       "section": "posts",
       "title": "🚀 Complete Django Deployment Guide with EC2"
+    },
+    "/posts/livesat_gnss/": {
+      "permalink": "/posts/livesat_gnss/",
+      "section": "posts",
+      "title": "Livesat GNSS"
     },
     "/posts/mathematics/fermats-last-theorem/": {
       "permalink": "/posts/mathematics/fermats-last-theorem/",

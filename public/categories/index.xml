@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Harsh Kishorani</title>
-    <link>https://harshkishorani.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Harsh Kishorani</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -10,47 +10,61 @@
     <webMaster>hkishorani7@gmail.com (Harsh Kishorani)</webMaster>
     <copyright>Harsh Kishorani</copyright>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://harshkishorani.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/categories/android/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/categories/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satellite-navigation</title>
+      <link>http://localhost:1313/categories/satellite-navigation/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
+      <guid>http://localhost:1313/categories/satellite-navigation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AWS</title>
-      <link>https://harshkishorani.github.io/categories/aws/</link>
+      <link>http://localhost:1313/categories/aws/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/aws/</guid>
+      <guid>http://localhost:1313/categories/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Django</title>
-      <link>https://harshkishorani.github.io/categories/django/</link>
+      <link>http://localhost:1313/categories/django/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/django/</guid>
+      <guid>http://localhost:1313/categories/django/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial Intelligence</title>
-      <link>https://harshkishorani.github.io/categories/artificial-intelligence/</link>
+      <link>http://localhost:1313/categories/artificial-intelligence/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/artificial-intelligence/</guid>
+      <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Esp32</title>
-      <link>https://harshkishorani.github.io/categories/esp32/</link>
+      <link>http://localhost:1313/categories/esp32/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/esp32/</guid>
+      <guid>http://localhost:1313/categories/esp32/</guid>
       <description></description>
     </item>
     <item>
       <title>Iot</title>
-      <link>https://harshkishorani.github.io/categories/iot/</link>
+      <link>http://localhost:1313/categories/iot/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/iot/</guid>
+      <guid>http://localhost:1313/categories/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Mediapipe</title>
-      <link>https://harshkishorani.github.io/categories/mediapipe/</link>
+      <link>http://localhost:1313/categories/mediapipe/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>hkishorani7@gmail.com (Harsh Kishorani)</author>
-      <guid>https://harshkishorani.github.io/categories/mediapipe/</guid>
+      <guid>http://localhost:1313/categories/mediapipe/</guid>
       <description></description>
     </item>
   </channel>
